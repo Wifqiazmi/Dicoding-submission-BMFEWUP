@@ -1,0 +1,224 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+.btn-submit {
+    font-family: 'Quicksand', serif;
+    background-image: url('https://media.giphy.com/media/tZZTCbdO5cRUVUULFL/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.head_bar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+    color: white;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #F7F8FC;
+
+}
+
+input[type=text],
+input[type=number] {
+    background: hsl(237, 100%, 96%);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+}
+
+.btn-submit {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: #3e46d7;
+    color: white;
+}
+
+
+.input_section>h2 {
+    text-align: center;
+    color: #2b32b2;
+}
+
+.input_section>form>.input {
+    margin: 8px 0;
+}
+
+.input_section>form> {
+    background-color: #2b32b2;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section>form>span {
+    font-weight: bold;
+}
+
+.input_section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section>form>.input>label {
+    color: #2b32b2;
+    font-weight: bold;
+}
+
+.input_inline{
+    margin: 20px 0;
+    color: #2b32b2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input_section> form> {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.input_section>form>label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search_section {
+    margin: 16px 0;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #F7F8FC;
+    text-align: center;
+  }
+  
+  .search_section > h2 {
+    color: #2b32b2;
+  }
+  
+  .search-label {
+    color: #2b32b2;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #searchBook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+::placeholder {
+    font-size: 16px; 
+  }
+  
+  #searchBookTitle {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 85%;
+    margin-bottom: 0;
+      margin-right: 10px;
+  }
+  
+  #searchSubmit {
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 55px; 
+  }
+  
+
+
+.book_shelf {
+    text-align: center;
+    margin: 16px 0 0 0;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F7F8FC;
+}
+
+.book_shelf>h2 {
+    color: #2b32b2;
+}
+
+.book_shelf>.book_list {
+    padding: 16px;
+}
+
+.book_shelf>.book_list>.book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf>.book_list>.book_item>h3,
+p {
+    margin: 8px 0;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 18px;
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+
+}
